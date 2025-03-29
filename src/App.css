@@ -1,0 +1,73 @@
+body{
+  background-image: url("https://wallpapercave.com/wp/wp6520175.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.app {
+  text-align: center;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.lista-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.card p {
+  font-family: "Berlin Sans FB"; /* Cambia la fuente */
+  font-size: 14px; /* Hace el texto más grande */
+  font-weight: bold; /* Lo hace más oscuro */
+  color: #000; /* Negro para mejor visibilidad */
+  text-transform: uppercase; /* Opcional: convierte el texto a mayúsculas */
+  letter-spacing: 2px; /* Espaciado entre letras para mejor lectura */
+}
+
+
+.card {
+  background-color: rgba(255, 255, 255, 0.299);
+  padding: 20px;
+  color: #0d090d;
+  border: 2px solid #0b0b0b;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar horizontalmente */
+  justify-content: center; /* Centrar verticalmente */
+  text-align: center; /* Centrar el texto */
+  border: 1px solid black;
+  padding: 15px;
+  width: 200px; /* Ajusta según tu diseño */
+  height: 400px; /* Ajusta según tu diseño */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Efecto de agrandar la carta */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+  object-fit: contain; /* Asegura que la imagen se mantenga dentro sin distorsionarse */
+  max-height: 110px; /* Ajusta el tamaño máximo según tu necesidad */
+
+}
